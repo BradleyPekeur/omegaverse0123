@@ -14,9 +14,70 @@ import { RiBuilding2Fill } from "react-icons/ri";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
+	let tl = gsap.timeline();
+	useEffect(() => {
+		tl.fromTo(
+			".heading",
+			{
+				x: -500,
+				opacity: 0,
+			},
+			{
+				x: 0,
+				opacity: 1,
+				duration: 0.75,
+			}
+		);
+		tl.fromTo(
+			".subHeadingText",
+			{
+				opacity: 0,
+			},
+			{
+				opacity: 1,
+				duration: 0.75,
+			}
+		);
+		tl.fromTo(
+			".card01",
+			{
+				xPercent: "-100",
+				opacity: 0,
+			},
+			{
+				opacity: 1,
+				duration: 0.75,
+				xPercent: 0,
+			}
+		);
+		tl.fromTo(
+			".card02",
+			{
+				opacity: 0,
+			},
+			{
+				opacity: 1,
+				duration: 0.75,
+			}
+		);
+		tl.fromTo(
+			".card03",
+			{
+				xPercent: "100",
+				opacity: 0,
+			},
+			{
+				opacity: 1,
+				duration: 0.75,
+				xPercent: 0,
+			}
+		);
+	});
+
 	return (
 		<>
 			<Head>
@@ -28,10 +89,10 @@ export default function Home() {
 				<SideSocialBar />
 				<section className="heroSection w-screen h-[94vh] bg-hero-background bg-cover bg-no-repeat flex items-center  text-white pt-[100px]">
 					<div className="md:w-[40%]">
-						<h1 className="  leading-[100%] mb-[50px] heading">
+						<h1 className="leading-[100%] mb-[50px] heading">
 							High Precision Engineering
 						</h1>
-						<p className="pText mb-[50px] font-light">
+						<p className="pText mb-[50px] font-light subHeadingText">
 							Africa’s larges milling and 3D Printing machine
 						</p>
 						<button className="text-[16px] px-[50px] py-[16px] bg-[#FF6600] rounded-full">
@@ -39,8 +100,8 @@ export default function Home() {
 						</button>
 					</div>
 				</section>
-				<section className="text-white flex justify-evenly md:flex-row flex-col">
-					<div className="w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]  ">
+				<section className="text-white flex justify-evenly md:flex-row flex-col section2">
+					<div className="w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]  card01">
 						<h4 className="text-[36px] leading-[100%] h-[100px] ">
 							Accelerated Product Development
 						</h4>
@@ -53,7 +114,7 @@ export default function Home() {
 							innovative composite materials.
 						</p>
 					</div>
-					<div className="bg-[#1C1C1C] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
+					<div className="bg-[#1C1C1C] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px] card02">
 						<h4 className="text-[36px] leading-[100%]  h-[100px] ">Tooling</h4>
 						<p className="leading-[150%] pText font-light">
 							By combining 3D printed tooling with traditional manufacturing
@@ -61,7 +122,7 @@ export default function Home() {
 							efficient iteration, and lower manufacturing costs.
 						</p>
 					</div>
-					<div className="bg-[#5D5D5D] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
+					<div className="bg-[#5D5D5D] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px] card03">
 						<h4 className="text-[36px] leading-[100%] h-[100px] ">
 							Models and props
 						</h4>
@@ -73,7 +134,7 @@ export default function Home() {
 						</p>
 					</div>
 				</section>
-				<section className="bg-[#EDEDED] text-[#333333] flex gap-4  px-[20px] md:px-[90px] py-[90px] w-screen md:flex-row flex-col">
+				<section className="bg-[#EDEDED] text-[#333333] flex gap-4  px-[20px] md:px-[90px] py-[90px] w-screen md:flex-row flex-col aboutSection1">
 					<div className="basis-1/2 flex flex-col ">
 						<div className="mb-16">
 							<h4 className="text-[36px] leading-[100%] mb-[50px]">About</h4>
@@ -138,8 +199,8 @@ export default function Home() {
 						<img src="/img/home/image1.png" alt="" className="w-[70%]" />
 					</div>
 				</section>
-				<section className="bg-mid-background bg-cover text-[#333333] py-[90px]  px-[20px] md:px-[90px] flex flex-col md:flex-row items-center">
-					<div className="basis-1/2">
+				<section className="aboutMachine bg-mid-background bg-cover text-[#333333] py-[90px]  px-[20px] md:px-[90px] flex flex-col md:flex-row items-center">
+					<div className="basis-1/2 ">
 						<h4 className="text-[36px] leading-[100%] mb-[50px]">
 							The 5-Axis Machine
 						</h4>
