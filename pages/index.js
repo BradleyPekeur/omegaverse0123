@@ -192,7 +192,11 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="flex justify-center items-center">
-						<img src="/img/home/image1.png" alt="" className="w-[70%]" />
+						<img
+							src="/img/home/sculpture_boat.png"
+							alt=""
+							className="md:w-[70%] w-[100%] "
+						/>
 					</div>
 				</section>
 				<section className="bg-mid-background bg-cover text-[#333333] py-[90px]  px-[20px] md:px-[90px] flex flex-col md:flex-row items-center">
