@@ -83,7 +83,7 @@ export default function Home() {
 				</section>
 				<section className="text-white flex justify-evenly md:flex-row flex-col section2">
 					<div className="w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
-						<h4 className="text-[36px] leading-[100%] h-[100px] ">
+						<h4 className="text-[36px] leading-[100%] h-[100px] mb-1">
 							Accelerated Product Development
 						</h4>
 						<p className="leading-[150%] pText font-light">
@@ -96,9 +96,7 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="bg-[#1C1C1C] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
-						<h4 className="text-[36px] leading-[100%]  h-[100px] mb-1 ">
-							Tooling
-						</h4>
+						<h4 className="text-[36px] leading-[100%]  h-[100px]">Tooling</h4>
 						<p className="leading-[150%] pText font-light">
 							By combining 3D printed tooling with traditional manufacturing
 							techniques, we can achieve faster product development, more
