@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@300;400&display=swap');
+
+.navbarBG {
+	background-color: #ededed;
+}
+
+:root {
+	--prime: #ff6600;
+}
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Oxanium', cursive;
+	/* background-color: #010101;  */
+}
+
+* {
+	box-sizing: border-box;
+}
+.card1 {
+	background-color: rgba(0, 0, 0, 0.205);
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+	border-radius: 20px;
+	border: 1px solid rgb(48, 48, 48);
+}
+
+.card2 {
+	background-color: #ff6600;
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+	border-radius: 20px;
+	border: 1px solid rgb(255, 255, 255);
+}
+
+.card3 {
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+	border-radius: 20px;
+	border: 1px solid rgb(255, 255, 255);
+}
+
+.heroSection {
+	padding-left: clamp(10px, 10vw, 180px);
+}
+
+.pText {
+	font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.25rem);
+}
+
+.heading {
+	/* font-size: clamp(1.875rem, 0.6964rem + 4vw, 6rem); */
+	font-size: clamp(2.5rem, 5.625rem, 10vw);
+}
+
+.sHeading {
+	font-size: clamp(1.25rem, 0.9643rem + 1.4286vw, 2.25rem);
+}
+
+.superHeading {
+	font-size: clamp(4rem, 3rem + 5vw, 8rem);
+	font-weight: bold;
+}
+
+.lightHeading {
+	font-size: clamp(1.25rem, 0.9643rem + 1.4286vw, 2.25rem);
+	font-weight: 200;
+	/* text-shadow: 2px 2px #ffffff; */
+}
+
+.video-background {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	transform: translate(-50%, -50%);
+}
+
+.video-background1 {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	transform: translate(-50%, -50%);
+}
+
+#container1 {
+	height: 300vh;
+}
+
+#container {
+	height: 300vh;
+}
+
+.home_card {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	padding-left: 90px;
+	padding-right: 90px;
+}

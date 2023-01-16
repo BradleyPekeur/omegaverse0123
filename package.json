@@ -1,0 +1,34 @@
+{
+  "name": "omegaverse",
+  "version": "0.0.0-development",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "gsap": "^3.11.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-iframe": "^1.8.4",
+    "sass": "^1.54.9",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "semantic-release": "^19.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BradleyPekeur/OmegaPublic.git"
+  }
+}
