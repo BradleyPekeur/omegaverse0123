@@ -42,21 +42,21 @@ export default function Home() {
 				duration: 0.75,
 			}
 		);
-		tl.from(".card01", {
-			xPercent: "-100",
-			opacity: 0,
-			scrollTrigger: ".card01",
-		});
-		tl.from(".card02", {
-			xPercent: "-100",
-			opacity: 0,
-			scrollTrigger: ".card01",
-		});
-		tl.from(".card03", {
-			xPercent: "-100",
-			opacity: 0,
-			scrollTrigger: ".card01",
-		});
+		// tl.from(".card01", {
+		// 	xPercent: "-100",
+		// 	opacity: 0,
+		// 	scrollTrigger: ".card01",
+		// });
+		// tl.from(".card02", {
+		// 	xPercent: "-100",
+		// 	opacity: 0,
+		// 	scrollTrigger: ".card01",
+		// });
+		// tl.from(".card03", {
+		// 	xPercent: "-100",
+		// 	opacity: 0,
+		// 	scrollTrigger: ".card01",
+		// });
 	});
 
 	return (
@@ -81,7 +81,7 @@ export default function Home() {
 						</button>
 					</div>
 				</section>
-				<section className="text-white flex justify-evenly md:flex-row flex-col section2 overflow-hidden w-screen">
+				<section className="text-white flex justify-evenly md:flex-row flex-col section2">
 					<div className="w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]  card01">
 						<h4 className="text-[36px] leading-[100%] h-[100px] ">
 							Accelerated Product Development
