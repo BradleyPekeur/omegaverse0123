@@ -82,7 +82,7 @@ export default function Home() {
 					</div>
 				</section>
 				<section className="text-white flex justify-evenly md:flex-row flex-col section2">
-					<div className="w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]  card01">
+					<div className="w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
 						<h4 className="text-[36px] leading-[100%] h-[100px] ">
 							Accelerated Product Development
 						</h4>
@@ -95,7 +95,7 @@ export default function Home() {
 							innovative composite materials.
 						</p>
 					</div>
-					<div className="bg-[#1C1C1C] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px] card02">
+					<div className="bg-[#1C1C1C] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
 						<h4 className="text-[36px] leading-[100%]  h-[100px] ">Tooling</h4>
 						<p className="leading-[150%] pText font-light">
 							By combining 3D printed tooling with traditional manufacturing
@@ -103,7 +103,7 @@ export default function Home() {
 							efficient iteration, and lower manufacturing costs.
 						</p>
 					</div>
-					<div className="bg-[#5D5D5D] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px] card03">
+					<div className="bg-[#5D5D5D] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
 						<h4 className="text-[36px] leading-[100%] h-[100px] ">
 							Models and props
 						</h4>
@@ -180,7 +180,7 @@ export default function Home() {
 						<img src="/img/home/image1.png" alt="" className="w-[70%]" />
 					</div>
 				</section>
-				<section className="aboutMachine bg-mid-background bg-cover text-[#333333] py-[90px]  px-[20px] md:px-[90px] flex flex-col md:flex-row items-center">
+				<section className="bg-mid-background bg-cover text-[#333333] py-[90px]  px-[20px] md:px-[90px] flex flex-col md:flex-row items-center">
 					<div className="basis-1/2 ">
 						<h4 className="text-[36px] leading-[100%] mb-[50px]">
 							The 5-Axis Machine
