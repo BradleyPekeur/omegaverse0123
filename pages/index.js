@@ -42,40 +42,21 @@ export default function Home() {
 				duration: 0.75,
 			}
 		);
-		tl.fromTo(
-			".card01",
-			{
-				xPercent: "-100",
-				opacity: 0,
-			},
-			{
-				opacity: 1,
-				duration: 0.75,
-				xPercent: 0,
-			}
-		);
-		tl.fromTo(
-			".card02",
-			{
-				opacity: 0,
-			},
-			{
-				opacity: 1,
-				duration: 0.75,
-			}
-		);
-		tl.fromTo(
-			".card03",
-			{
-				xPercent: "100",
-				opacity: 0,
-			},
-			{
-				opacity: 1,
-				duration: 0.75,
-				xPercent: 0,
-			}
-		);
+		tl.from(".card01", {
+			xPercent: "-100",
+			opacity: 0,
+			scrollTrigger: ".card01",
+		});
+		tl.from(".card02", {
+			xPercent: "-100",
+			opacity: 0,
+			scrollTrigger: ".card01",
+		});
+		tl.from(".card03", {
+			xPercent: "-100",
+			opacity: 0,
+			scrollTrigger: ".card01",
+		});
 	});
 
 	return (
@@ -86,7 +67,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<div className="bg-[#010101]">
-				<SideSocialBar />
+				{/* <SideSocialBar /> */}
 				<section className="heroSection w-screen h-[94vh] bg-hero-background bg-cover bg-no-repeat flex items-center  text-white pt-[100px]">
 					<div className="md:w-[40%]">
 						<h1 className="leading-[100%] mb-[50px] heading">
@@ -100,7 +81,7 @@ export default function Home() {
 						</button>
 					</div>
 				</section>
-				<section className="text-white flex justify-evenly md:flex-row flex-col section2">
+				<section className="text-white flex justify-evenly md:flex-row flex-col section2 overflow-hidden w-screen">
 					<div className="w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]  card01">
 						<h4 className="text-[36px] leading-[100%] h-[100px] ">
 							Accelerated Product Development
