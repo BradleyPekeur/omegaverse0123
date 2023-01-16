@@ -76,13 +76,13 @@ export default function Home() {
 						<p className="pText mb-[50px] font-light subHeadingText">
 							Africa’s larges milling and 3D Printing machine
 						</p>
-						<button className="text-[16px] px-[50px] py-[16px] bg-[#FF6600] rounded-full">
+						<button className="text-[16px] w-[200px] h-[60px] bg-[#FA7921] rounded-full flex justify-center items-center">
 							Get in touch
 						</button>
 					</div>
 				</section>
 				<section className="text-white flex justify-evenly md:flex-row flex-col section2">
-					<div className="w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
+					<div className="w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] pt-[100px] pb-[150px] relative">
 						<h4 className="text-[36px] leading-[100%] h-[100px] mb-1">
 							Accelerated Product Development
 						</h4>
@@ -94,16 +94,26 @@ export default function Home() {
 							remarkable outcomes by utilizing cutting-edge technologies and
 							innovative composite materials.
 						</p>
+						<img
+							src="/img/home/apd_white.png"
+							alt=""
+							className="w-[100px] md:w-[120px] absolute right-[50px] bottom-3  "
+						/>
 					</div>
-					<div className="bg-[#1C1C1C] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
+					<div className="bg-[#1C1C1C] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] pt-[100px] pb-[150px] relative">
 						<h4 className="text-[36px] leading-[100%]  h-[100px]">Tooling</h4>
 						<p className="leading-[150%] pText font-light">
 							By combining 3D printed tooling with traditional manufacturing
 							techniques, we can achieve faster product development, more
 							efficient iteration, and lower manufacturing costs.
 						</p>
+						<img
+							src="/img/home/tooling_white.png"
+							alt=""
+							className="w-[100px] md:w-[120px] absolute right-[50px] bottom-3 "
+						/>
 					</div>
-					<div className="bg-[#5D5D5D] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] py-[100px]">
+					<div className="bg-[#5D5D5D] w-full max-h-[635px] px-[20px] md:px-[45px] lg:px-[90px] pt-[100px] pb-[150px] relative">
 						<h4 className="text-[36px] leading-[100%] h-[100px] ">
 							Models and props
 						</h4>
@@ -113,6 +123,11 @@ export default function Home() {
 							precise models with exceptional surface finishes, catering to a
 							broad spectrum of industries and specific use cases.
 						</p>
+						<img
+							src="/img/home/props_white.png"
+							alt=""
+							className="w-[100px] md:w-[120px] absolute right-[50px] bottom-3 "
+						/>
 					</div>
 				</section>
 				<section className="bg-[#EDEDED] text-[#333333] flex gap-4  px-[20px] md:px-[90px] py-[90px] w-screen md:flex-row flex-col aboutSection1">
@@ -204,6 +219,56 @@ export default function Home() {
 					</div>
 					<div className="basis-1/2">
 						<img src="/img/home/Machine.png" alt="" />
+					</div>
+				</section>
+				<section className="bg-[#FA7921] flex justify-center items-center flex-col md:flex-row p-[20px] py-[90px]">
+					<div>
+						<img src="/img/home/printmycity.png" alt="" />
+					</div>
+					<div>
+						<h4 className="text-[36px] leading-[100%] mb-[50px] text-white">
+							Omega 3D Printing
+						</h4>
+						<div>
+							<div className="flex items-center mb-4">
+								<img
+									src="/img/home/iconDown.png"
+									alt=""
+									className="w-[35px] h-[35px] mr-4"
+								/>
+								<h5 className="text-[30px] md:text-[35px]">
+									Reduce labour & lead time
+								</h5>
+							</div>
+							<div className="flex items-center mb-4">
+								<img
+									src="/img/home/iconDown.png"
+									alt=""
+									className="w-[35px] h-[35px] mr-4"
+								/>
+								<h5 className="text-[30px] md:text-[35px]">Reduce waste</h5>
+							</div>
+							<div className="flex items-center mb-4">
+								<img
+									src="/img/home/iconDown.png"
+									alt=""
+									className="w-[35px] h-[35px] mr-4"
+								/>
+								<h5 className="text-[30px] md:text-[35px]">
+									Improve efficiency
+								</h5>
+							</div>
+							<div className="flex items-center mb-4">
+								<img
+									src="/img/home/iconDown.png"
+									alt=""
+									className="w-[35px] h-[35px] mr-4"
+								/>
+								<h5 className="text-[30px] md:text-[35px]">
+									Create products from waste
+								</h5>
+							</div>
+						</div>
 					</div>
 				</section>
 			</div>

@@ -16,7 +16,7 @@
 }
 
 :root {
-	--prime: #ff6600;
+	--prime: #FA7921;
 }
 html,
 body {
@@ -38,7 +38,7 @@ body {
 }
 
 .card2 {
-	background-color: #ff6600;
+	background-color: #FA7921;
 	-webkit-backdrop-filter: blur(20px);
 	backdrop-filter: blur(20px);
 	border-radius: 20px;
