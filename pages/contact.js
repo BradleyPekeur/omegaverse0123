@@ -10,58 +10,6 @@ import { ImLocation2 } from "react-icons/im";
 function contact() {
 	return (
 		<div className="flex flex-col justify-center items-center py-8 bg-slate-800 w-full">
-			{/* <div className="max-w-[90vw] md:max-w-[80vw]">
-				<div className="cards_container ">
-					<div className="pt-24 text-center">
-						<h1 className="sHeading text-[#FF6600] mb-6">
-							We’d love to hear from you
-						</h1>
-						<h3 className="pText text-white mb-12">
-							Whether you’re curious about features, a free trial, or even
-							press—we’re ready to answer any and all questions.
-						</h3>
-					</div>
-					<div className="w-full flex justify-center items-center">
-						<div className="w-[100%] md:w-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-white justify-center">
-							<div className="border border-[#FF6600] flex flex-col items-center justify-center px-5 py-10">
-								<GiSubmarine size={50} className="p-1 mb-2" />
-								<span className="pText  mr-4 text-[#FF6600] mb-4">Support</span>
-								<p className="mb-16">
-									Need a hand using Unbounce or managing your account? Chat with
-									a real, live human or self-serve using our Help Center.
-								</p>
-								<button className="bg-[#FF6600] px-4 py-2 rounded-full ">
-									Lets chat
-								</button>
-							</div>
-							<div className="border border-[#FF6600] flex flex-col items-center justify-center p-5">
-								<FaCar size={50} className="p-1 mb-2" />
-								<span className="pText mr-4 text-[#FF6600] mb-4">
-									Partnerships
-								</span>
-								<p className="mb-16">
-									We’re into co-marketing with awesome brands. Fill out the form
-									here, and our Partnerships Manager will circle back.
-								</p>
-								<button className="bg-[#FF6600] px-4 py-2 rounded-full ">
-									Lets chat
-								</button>
-							</div>
-							<div className="border border-[#FF6600] flex flex-col items-center justify-center p-5">
-								<FaHandHoldingMedical size={50} className="p-1 mb-2" />
-								<span className="pText mr-4 text-[#FF6600] mb-4">Shop</span>
-								<p className="mb-16">
-									Wondering if Unbounce is the right tool for your business?
-									Chat with our team to see if there’s a fit.
-								</p>
-								<button className="bg-[#FF6600] px-4 py-2 rounded-full ">
-									View Shop
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> */}
 			<div className="max-w-[90vw] md:max-w-[80vw] py-16">
 				<div className="cards_container ">
 					<div className="pt-24 text-center flex justify-center flex-col items-center">

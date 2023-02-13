@@ -3,6 +3,16 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@300;400&display=swap');
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+	-moz-appearance: textfield;
+}
+
 .navbarBG {
 	background-color: #ededed;
 	box-shadow:
