@@ -148,9 +148,9 @@ export default function Home() {
 								Industries we serve
 							</h4>
 							<div className="flex w-[70%] justify-between">
-								<div>
+								<div className="mr-[10px]">
 									<div className="flex items-center mb-4">
-										<span className="mr-[16px]">
+										<span className="mr-[20px] md:mr-0">
 											<GiSubmarine size={20} />
 										</span>
 										<span className="pText">Marine</span>

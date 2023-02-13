@@ -16,21 +16,19 @@ function team(props) {
 				<h1 className="text-[#FF6600] text-[36px] mb-10">Our Team</h1>
 			</div>
 			<div className="teamsContainer flex flex-col justify-center items-center relative min-h-[600px]  pl-4">
-				<div className="md:absolute top-[0px] left-[15%] lg:left-[25%] mb-8">
+				<div className="md:absolute top-[0px] left-[15%] lg:left-[45%] mb-8">
 					<TeamId
 						profile="ClintonJohns.png"
 						position="Consultant"
 						name="Clinton Johns"
-						top="100px"
-						left="400px"
 					/>
 				</div>
 
-				<div className="md:absolute top-[150px] right-[15%] lg:right-[30%] mb-8">
+				{/* <div className="md:absolute top-[150px] right-[15%] lg:right-[30%] mb-8">
 					<TeamId profile="ChadS.png" position="HOM" name="Chad Swart" />
-				</div>
+				</div> */}
 
-				<div className="md:absolute top-[400px] right-[20%]  mb-8">
+				<div className="md:absolute top-[250px] right-[25%]  mb-8">
 					<TeamId
 						profile="DevondF.png"
 						position="CAD Programmer"
@@ -38,7 +36,7 @@ function team(props) {
 					/>
 				</div>
 
-				<div className="md:absolute top-[280px] left-[20%] mb-8">
+				<div className="md:absolute top-[280px] left-[30%] mb-8">
 					<TeamId
 						profile="KevinR.png"
 						position="CNC Operator"

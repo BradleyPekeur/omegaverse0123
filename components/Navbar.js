@@ -18,8 +18,8 @@ function Navbar() {
 	return (
 		<nav className="navbarBG navbg flex justify-between items-center h-[100px] md:justify-around w-screen fixed  md: mb-10 px-[30px] md:px-[170px] z-[99]">
 			<Link href="./">
-				<div className="min-h-[40px]">
-					<img src="/omegaverse-logo.png" alt="Logo" width={200} height={40} />
+				<div className="min-h-[40px] min-w-[120px]">
+					<img src="/Omegaverse_Logo_dark.svg" alt="" />
 				</div>
 			</Link>
 			<ul className="hidden md:flex space-x-4 w-full justify-center text-[#333333] text-size-4">
@@ -40,7 +40,7 @@ function Navbar() {
 				</li>
 			</ul>
 			<a
-				href="https://form.asana.com/?k=XadmS3lTRA-KFCsdbp676w&d=1200250413180775"
+				href="mailto:o-megaverse.com"
 				target="_blank"
 				className="hidden md:flex"
 				rel="noreferrer"
@@ -63,13 +63,8 @@ function Navbar() {
 						: "ease-in-out duration-500 fixed h-full left-[-100%] "
 				}
 			>
-				<div className="min-h-[40px]">
-					<Image
-						src="/omegaverse_logo.svg"
-						alt="Logo"
-						width={200}
-						height={40}
-					/>
+				<div className="min-h-[40px] min-w-[100px] max-w-[150px]">
+					<img src="/omegaverse_logo.svg" alt="" />
 				</div>
 				<li className="p-4 border-b border-gray-600">
 					<Link href="./">
@@ -96,11 +91,7 @@ function Navbar() {
 						<span onClick={closeNav}>Contact Us</span>
 					</Link>
 				</li>
-				<a
-					href="https://form.asana.com/?k=XadmS3lTRA-KFCsdbp676w&d=1200250413180775"
-					target="_blank"
-					rel="noreferrer"
-				>
+				<a href="mailto:o-megaverse.com" target="_blank" rel="noreferrer">
 					<button className="text-[16px] w-[200px] h-[60px] bg-[#FA7921] rounded-full flex justify-center items-center text-white">
 						Request an Quote
 					</button>
