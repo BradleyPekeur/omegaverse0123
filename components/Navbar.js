@@ -40,7 +40,7 @@ function Navbar() {
 				</li>
 			</ul>
 			<a
-				href="mailto:o-megaverse.com"
+				href="mailto:info@o-megaverse.com"
 				target="_blank"
 				className="hidden md:flex"
 				rel="noreferrer"
@@ -91,7 +91,7 @@ function Navbar() {
 						<span onClick={closeNav}>Contact Us</span>
 					</Link>
 				</li>
-				<a href="mailto:o-megaverse.com" target="_blank" rel="noreferrer">
+				<a href="mailto:info@o-megaverse.com" target="_blank" rel="noreferrer">
 					<button className="text-[16px] w-[200px] h-[60px] bg-[#FA7921] rounded-full flex justify-center items-center text-white">
 						Request an Quote
 					</button>
