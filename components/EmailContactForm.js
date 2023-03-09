@@ -67,7 +67,7 @@ function EmailContactForm() {
 		<div>
 			{" "}
 			<Container maxW="450px" mt={12}>
-				<Heading className="text-white">Contact</Heading>
+				{/* <Heading className="text-white">Contact</Heading> */}
 				{error && (
 					<Text color="red.300" my={4} fontSize="xl">
 						{error}

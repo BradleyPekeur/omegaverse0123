@@ -6,6 +6,7 @@ import { GrMapLocation } from "react-icons/gr";
 import { MdEmail } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 import { ImLocation2 } from "react-icons/im";
+import EmailContactForm from "../components/EmailContactForm";
 
 function contact() {
 	return (
@@ -23,20 +24,17 @@ function contact() {
 						</h3>
 					</div>
 					<div className="w-full flex justify-center items-center">
-						<div className="w-[100%] md:w-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-white justify-center">
-							<div className="border border-[#FF6600] flex flex-col items-center justify-center p-5">
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1655.4741881709986!2d18.465759558223834!3d-33.91672819516068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x56744ff8be2eeb81!2sOmegaverse!5e0!3m2!1sen!2sza!4v1664978246940!5m2!1sen!2sza"
-									style={{ height: "100%", width: "100%" }}
-									loading="lazy"
-								></iframe>
+						<div className="w-[100%] md:w-[90%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-white justify-center">
+							<div className="border border-[#FF6600] flex flex-col items-center justify-center p-5 ">
+								<EmailContactForm />
 							</div>
-							<div className="border border-[#FF6600] flex flex-col  p-5">
-								<GrMapLocation size={50} className="p-1 mb-2 " />
+
+							<div className="border border-[#FF6600] flex flex-col  p-5 ">
+								{/* <GrMapLocation size={50} className="p-1 mb-2 " /> */}
 
 								<ul>
 									<div>
-										<h4 className="sHeading text-[#FF6600] mb-6">Cape Town</h4>
+										<h4 className="sHeading text-[#FF6600] mb-6 pt-[20px]"></h4>
 										<div className="flex items-center mb-4">
 											<span>
 												<div className="w-6 mr-2">
@@ -80,8 +78,13 @@ function contact() {
 									</div>
 								</ul>
 							</div>
-							<div className="border border-[#FF6600] flex flex-col  p-5">
-								<img src="/img/contact/dm.jpg" alt="" />
+
+							<div className="border border-[#FF6600] flex flex-col items-center justify-center p-5">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1655.4741881709986!2d18.465759558223834!3d-33.91672819516068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x56744ff8be2eeb81!2sOmegaverse!5e0!3m2!1sen!2sza!4v1664978246940!5m2!1sen!2sza"
+									style={{ height: "100%", width: "100%" }}
+									loading="lazy"
+								></iframe>
 							</div>
 						</div>
 					</div>
