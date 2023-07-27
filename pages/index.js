@@ -63,7 +63,7 @@ export default function Home() {
 							High Precision Engineering
 						</h1>
 						<p className="pText mb-[50px] font-light subHeadingText">
-							Africa’s larges milling and 3D Printing machine
+							Africa’s largest milling and 3D Printing machine
 						</p>
 						<Link href="./contact">
 							<button className="text-[16px] w-[200px] h-[60px] bg-[#FA7921] rounded-full flex justify-center items-center">
